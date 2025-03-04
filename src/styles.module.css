@@ -24,3 +24,12 @@ li{
     width: 40%;
     height: 70%;
 }
+
+.partners{
+    margin-top: 20px;
+    display: flex;
+}
+
+.partners img{
+    width: 100px;
+}

@@ -29,6 +29,28 @@ function Landing() {
         </p>
       </article>
     </section>
+
+    <article className={styles.partners}>
+        <span>
+          <img src="assets\Icons\Call Of Duty.png" alt="Call Of Duty Icon" />
+          <img src="assets\Icons\EA Sports.png" alt="EA Sports Icon" />
+          <img src="assets\Icons\Play Station.jpg" alt="Play Station Icon" />
+          <img src="assets\Icons\Rockstar Games.jpg" alt="Rockstar Games Icon" />
+          <img src="assets\Icons\UFC.png" alt="UFC Icon" />
+        </span>
+      </article>
+
+      <section >
+        <aside>
+          <div>New Release</div>
+          <div>Most Popular</div>
+          <div>Early Release</div>
+          <div>Rare</div>
+          <div>Top Pick</div>
+          <div>Unreleased</div>
+        </aside>
+      </section>
+
     </>
     );
   }
