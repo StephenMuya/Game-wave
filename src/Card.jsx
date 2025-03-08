@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import styles from './card.module.css'
-import { Button, HStack } from "chakra-ui/react"
+import { Button, HStack } from "@chakra-ui/react"
 
 function Card() {
     return(
