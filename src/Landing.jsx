@@ -12,18 +12,24 @@ function Landing() {
   
       <ul>
           <li>Login</li>
-          <li>Cart</li>
+          <li>Sign Up</li>
           <li>Contacts</li>
       </ul>
     </nav>
 
     <section className={styles.container}>
-      <article>
-        <img src="assets\Cover Image.jpg" alt="Cover Image" />
+      <article className="hero_section_left">
+        <h1>Play More, Pay Less.</h1>
+        <h1>The Ultimate Game Store!</h1>
+        <figure className="hero_section_image_1">
+          <img src="assets\Cover Image 2.jpg" alt="" />
+        </figure>
       </article>
 
-      <article>
-        <h1>Play More, Pay Less. The Ultimate Game Store!</h1>
+      <article className="hero_section_right">
+        <figure className="hero_section_image_2">
+          <img src="assets\Image Cover 1.png" alt="" />
+        </figure>
         <p>
         At Game Wave, we bring you the best games across all platforms. Whether you're into action-packed shooters, thrilling RPGs, or heart-racing sports games, we’ve got something for every gamer. 
         From the hottest new releases to timeless classics, our collection is curated to give you the best gaming experience.
@@ -34,11 +40,11 @@ function Landing() {
 
     <article className={styles.partners}>
         <span>
-          <img src="assets\Icons\Call Of Duty.png" alt="Call Of Duty Icon" />
-          <img src="assets\Icons\EA Sports.png" alt="EA Sports Icon" />
-          <img src="assets\Icons\Play Station.jpg" alt="Play Station Icon" />
-          <img src="assets\Icons\Rockstar Games.jpg" alt="Rockstar Games Icon" />
-          <img src="assets\Icons\UFC.png" alt="UFC Icon" />
+          <img src="assets\Partners\Call Of Duty.png" alt="Call Of Duty Icon" />
+          <img src="assets\Partners\EA Sports.png" alt="EA Sports Icon" />
+          <img src="assets\Partners\Play Station.jpg" alt="Play Station Icon" />
+          <img src="assets\Partners\Rockstar Games.jpg" alt="Rockstar Games Icon" />
+          <img src="assets\Partners\UFC.png" alt="UFC Icon" />
         </span>
       </article>
 
