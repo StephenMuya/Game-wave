@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './styles.module.css'
-
+import Card from './Card'
 
 
 function Landing() {
@@ -53,6 +53,14 @@ function Landing() {
         </aside>
       </section>
 
+      
+      <Card />
+
+      <h1>FAQ section</h1>
+      <h1>Shipping Policies</h1>
+      <h1>Newsletter</h1>
+      <h1>Social Media</h1>
+      <h1>Contacts- maps, addresses, numbers & more</h1>
     </>
     );
   }
