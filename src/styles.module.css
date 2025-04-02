@@ -47,8 +47,12 @@ li{
 }
 
 .partners{
-    margin-top: 20px;
+    margin-top: 20px; 
+}
+
+.partners span{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .partners img{
