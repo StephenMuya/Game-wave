@@ -71,10 +71,54 @@ function Card() {
           </aside>
         </article>
       </section>
+
+
+      <section className={style.discounts}>
+      <article className={style.discount_1}>
+          <figure>
+            <img src="" alt="" />
+          </figure>
+
+          <aside>
+            <header>Discount Name</header>
+            <p>Discount description</p>
+          </aside>
+        </article>
+
+        <article className={style.discount_2}>
+          <figure>
+            <img src="" alt="" />
+          </figure>
+
+          <aside>
+            <header>Discount Name</header>
+            <p>Discount description</p>
+          </aside>
+        </article>
+
+        <article className={style.discount_3}>
+          <figure>
+            <img src="" alt="" />
+          </figure>
+
+          <aside>
+            <header>Discount Name</header>
+            <p>Discount description</p>
+          </aside>
+        </article>
+      </section>
     </>
 )
 
 }
 
 export default Card;
+
+
+/*New Release
+Most Popular
+Early Release
+Rare
+Top Pick
+Unreleased*/
 

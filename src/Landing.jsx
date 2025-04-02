@@ -48,25 +48,7 @@ function Landing() {
         </span>
       </article>
 
-      <section >
-        <aside>
-          <div>New Release</div>
-          <div>Most Popular</div>
-          <div>Early Release</div>
-          <div>Rare</div>
-          <div>Top Pick</div>
-          <div>Unreleased</div>
-        </aside>
-      </section>
-
-      
       <Card />
-
-      <h1>FAQ section</h1>
-      <h1>Shipping Policies</h1>
-      <h1>Newsletter</h1>
-      <h1>Social Media</h1>
-      <h1>Contacts- maps, addresses, numbers & more</h1>
     </>
     );
   }
