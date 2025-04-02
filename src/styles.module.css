@@ -14,16 +14,31 @@ nav header{
 ul{
     display: flex;
     list-style-type: none;
-    
 }
 
 li{
     margin-right: 10px;
 }
 .container{
-    display: flex;
-    margin-top: 15%;
-    border: 5px solid black;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.hero_section_left h1{
+    font-size: 40px;
+}
+
+.container article > figure {
+    margin: 0;
+}
+
+.container article figure > img{
+    width: 700px;
+    height: 500px;
+    border-top-right-radius: 100px;
+    border-radius: 10px;
 }
 
 .container img{

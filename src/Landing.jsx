@@ -18,10 +18,10 @@ function Landing() {
     </nav>
 
     <section className={styles.container}>
-      <article className="hero_section_left">
+      <article className={styles.hero_section_left}>
         <h1>Play More, Pay Less.</h1>
         <h1>The Ultimate Game Store!</h1>
-        <figure className="hero_section_image_1">
+        <figure className={styles.hero_section_image_1}>
           <img src="assets\Cover Image 2.jpg" alt="" />
         </figure>
       </article>
