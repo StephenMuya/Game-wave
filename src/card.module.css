@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 15px
+}
+
+.pick_1,
+.pick_2,
+.pick_3,
+.pick_4,
+.pick_5,
+.pick_6{
+    border: 5px solid black;
+}
