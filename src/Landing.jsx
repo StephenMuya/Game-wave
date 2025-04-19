@@ -29,16 +29,15 @@ function Landing() {
         <h1>The Ultimate Game Store!</h1>
       </article>
         <p id={styles.hero_description}>
-        At Game Wave, we bring you the best games across all platforms. Whether you're into action-packed shooters, thrilling RPGs, or heart-racing sports games, we’ve got something for every gamer. 
+        At Game Wave, we bring you the best games across all platforms. Whether youre into action-packed shooters, thrilling RPGs, or heart-racing sports games, we’ve got something for every gamer. 
         From the hottest new releases to timeless classics, our collection is curated to give you the best gaming experience.
         Find your next favorite game, dive into epic adventures, and start playing today. No delays, no hassle – just pure gaming!
         </p>
 
-        <button>Get started</button>
+        <button>Shop now</button>
       </article>
-    </section>
 
-    <article className={styles.partners}>
+      <article className={styles.partners}>
         <span>
           <img src="assets\Partners\Call Of Duty.png" alt="Call Of Duty Icon" />
           <img src="assets\Partners\EA Sports.png" alt="EA Sports Icon" />
@@ -47,7 +46,9 @@ function Landing() {
           <img src="assets\Partners\UFC.png" alt="UFC Icon" />
         </span>
       </article>
+    </section>
 
+  
       <Card />
     </>
     );
