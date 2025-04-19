@@ -1,4 +1,3 @@
-import React from 'react';
 import style from './card.module.css'
 
 function Card() {
@@ -107,6 +106,94 @@ function Card() {
           </aside>
         </article>
       </section>
+
+      <section className={style.customer_rating_card}>
+
+      <article className={style.customer_review_1}>
+        <figure>
+          <img src="" alt="" />
+        </figure>
+
+        <aside>
+          <p>
+            Customer one review message
+          </p>
+        </aside>
+      </article>
+
+      <article className={style.customer_review_2}>
+        <figure>
+          <img src="" alt="" />
+        </figure>
+
+        <aside>
+          <p>
+            Customer two review message
+          </p>
+        </aside>
+      </article>
+
+      <article className={style.customer_review_3}>
+        <figure>
+          <img src="" alt="" />
+        </figure>
+
+        <aside>
+          <p>
+            Customer three review message
+          </p>
+        </aside>
+      </article>
+      </section>
+
+      <section className={style.FAQ}>
+        <header>FREQUENTLY ASKED QUESTIONS</header>
+        <article>
+          <p>Question 1</p>
+          <p>Question 2</p>
+          <p>Question 3</p>
+          <p>Question 4</p>
+          <p>Question 5</p>
+          <p>Question 6</p>
+
+          <p>Answer 1</p>
+          <p>Answer 2</p>
+          <p>Answer 3</p>
+          <p>Answer 4</p>
+          <p>Answer 5</p>
+          <p>Answer 6</p>
+        </article>
+      </section>
+
+      <section className={style.shipping_policies}>
+        <p>Policy 1</p>
+        <p>Policy 2</p>
+        <p>Policy 3</p>
+        <p>Policy 4</p>
+        <p>Policy 5</p>
+        <p>Policy 6</p>
+      </section>
+
+      <section>
+        <h1>Subscribe to our weekly newspaper</h1>
+        <h3>Get updates about the latest realeases, dscounts and offers</h3>
+        
+        <form action="" className={style.newsletter}>
+          <input type="text" placeholder='Name'/>
+          <input type="text" placeholder='email'/>
+
+          <button>submit</button>
+        </form>
+      </section>
+
+      <footer className={style.footer}>
+        <div>
+        Contact info
+        social media links
+        maps
+        copyright information
+        </div>
+      </footer>
     </>
 )
 

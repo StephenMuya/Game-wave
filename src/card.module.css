@@ -25,3 +25,50 @@
 .discount_3{
     border: 5px solid black;
 }
+
+.customer_rating_card{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.customer_review_1{
+    border: 5px solid blue;
+}
+
+.customer_review_3{
+    border: 5px solid yellow;
+}
+
+.customer_review_2{
+    border: 5px solid green;
+}
+
+.FAQ{
+    border: 5px solid black;
+    margin-top: 20px;
+}
+
+.shipping_policies{
+    border: 5px solid black;
+    margin-top: 20px;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    margin-top: 20px;
+}
+
+.footer{
+    border: 5px solid black;
+    margin-top: 20px;
+    position: relative;
+    height: 300px;
+}
+
+footer div{
+    position: absolute;
+}
