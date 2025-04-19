@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    color: white;
+    background-color: black;
+}
 
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: red;
     align-items: center;
     border-radius: 20px;
 }
 
 nav header{
-    margin-left: 10px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-left: 10px;
+  font-size: 30px;
 }
 
 ul{
@@ -19,31 +28,32 @@ ul{
 li{
     margin-right: 10px;
 }
+
 .container{
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 10px;
-    row-gap: 10px;
+    display: flex;
 }
+
+
 
 .hero_section_left h1{
-    font-size: 40px;
-}
-
-.container article > figure {
+    font-size:65px;
     margin: 0;
 }
 
-.container article figure > img{
-    width: 700px;
-    height: 500px;
-    border-top-right-radius: 100px;
-    border-radius: 10px;
+#hero_description{
+    font-size: 25px;
 }
 
-.container img{
-    width: 40%;
-    height: 70%;
+button{
+    height: 60px;
+    width: 220px;
+    background-color: #696969;
+    border: 0;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: #1B56FD;
 }
 
 .partners{
@@ -58,4 +68,5 @@ li{
 .partners img{
     width: 100px;
 }
+
 

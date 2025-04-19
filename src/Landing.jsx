@@ -1,4 +1,3 @@
-import React from "react";
 import styles from './styles.module.css'
 import Card from './Card'
 
@@ -13,28 +12,29 @@ function Landing() {
       <ul>
           <li>Login</li>
           <li>Sign Up</li>
-          <li>Contacts</li>
+          <li>Sections</li>
       </ul>
     </nav>
 
     <section className={styles.container}>
+
+      <figure>
+        <img src="assets/hero section image.jpg" alt="" />
+      </figure>
+
+      <article className={styles.hero_section_right}>
+
       <article className={styles.hero_section_left}>
         <h1>Play More, Pay Less.</h1>
         <h1>The Ultimate Game Store!</h1>
-        <figure className={styles.hero_section_image_1}>
-          <img src="assets\Cover Image 2.jpg" alt="" />
-        </figure>
       </article>
-
-      <article className="hero_section_right">
-        <figure className="hero_section_image_2">
-          <img src="assets\Image Cover 1.png" alt="" />
-        </figure>
-        <p>
+        <p id={styles.hero_description}>
         At Game Wave, we bring you the best games across all platforms. Whether you're into action-packed shooters, thrilling RPGs, or heart-racing sports games, we’ve got something for every gamer. 
         From the hottest new releases to timeless classics, our collection is curated to give you the best gaming experience.
         Find your next favorite game, dive into epic adventures, and start playing today. No delays, no hassle – just pure gaming!
         </p>
+
+        <button>Get started</button>
       </article>
     </section>
 
