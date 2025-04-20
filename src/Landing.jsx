@@ -39,11 +39,11 @@ function Landing() {
 
       <article className={styles.partners}>
         <span>
-          <img src="assets\Partners\Call Of Duty.png" alt="Call Of Duty Icon" />
-          <img src="assets\Partners\EA Sports.png" alt="EA Sports Icon" />
-          <img src="assets\Partners\Play Station.jpg" alt="Play Station Icon" />
-          <img src="assets\Partners\Rockstar Games.jpg" alt="Rockstar Games Icon" />
-          <img src="assets\Partners\UFC.png" alt="UFC Icon" />
+          <img src="assets/Partners/ea-sports-logo-vector-01.png" alt="Call Of Duty Icon" />
+          <img src="assets/Partners/Valorant-aPVsZquE_brandlogos.net.svg" alt="EA Sports Icon" />
+          <img src="assets/Partners/grand-theft-auto-vi-logo-brandlogos.net_aguh99uge.svg" alt="Play Station Icon" />
+          <img src="assets/Partners/Minecraft-JVTcXaYZ_brandlogos.net.svg" alt="Rockstar Games Icon" />
+          <img src="assets/Partners/Roblox-New-Logo.jpg" alt="UFC Icon" />
         </span>
       </article>
     </section>
