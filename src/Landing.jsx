@@ -35,6 +35,21 @@ function Landing() {
         </p>
 
         <button>Shop now</button>
+
+        <article>
+          <h1>$1M+ in sales</h1>
+          <h1>40K+ daily users</h1>
+          <h1>85.4% average daily users</h1>
+          <h1>20k+ games sold so far</h1>
+        </article>
+
+        <article>
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </article>
       </article>
 
       <article className={styles.partners}>
