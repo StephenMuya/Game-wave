@@ -36,11 +36,26 @@ function Landing() {
 
         <button>Shop now</button>
 
-        <article>
-          <h1>$1M+ in sales</h1>
-          <h1>40K+ daily users</h1>
-          <h1>85.4% average daily users</h1>
-          <h1>20k+ games sold so far</h1>
+        <article className={styles.stats}>
+
+          <aside>
+            <div>
+              <h1>$1M+</h1>
+              <p>Total sales</p>
+            </div>
+
+            <div>
+              <h1>40K+</h1>
+              <p>Daily users</p>
+            </div>
+
+            <div>
+              <h1>85.4%</h1>
+              <p>Average daily users</p>
+            </div>
+          </aside>
+
+        
         </article>
 
         
