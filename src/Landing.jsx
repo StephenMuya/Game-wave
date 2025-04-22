@@ -43,12 +43,13 @@ function Landing() {
           <h1>20k+ games sold so far</h1>
         </article>
 
-        <article>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+        
+        <article className={styles.socials}>
+        <img src="assets/socials/instagram-2016-6.svg" alt="" />
+        <img src="assets/socials/pinterest-3.svg" alt="" />
+        <img src="assets/socials/reddit-4.svg" alt="" />
+        <img src="assets/socials/tiktok-icon-2.svg" alt="" />
+        <img src="assets/socials/youtube-icon-5.svg" alt="" />
         </article>
       </article>
 
@@ -58,7 +59,7 @@ function Landing() {
           <img src="assets/Partners/Valorant-aPVsZquE_brandlogos.net.svg" alt="EA Sports Icon" />
           <img src="assets/Partners/grand-theft-auto-vi-logo-brandlogos.net_aguh99uge.svg" alt="Play Station Icon" />
           <img src="assets/Partners/Minecraft-JVTcXaYZ_brandlogos.net.svg" alt="Rockstar Games Icon" />
-          <img src="assets/Partners/Roblox-New-Logo.jpg" alt="UFC Icon" />
+          <img src="assets/Partners/fifa-logo-brandlogos.net_ef027xqux.svg" alt="UFC Icon" />
         </span>
       </article>
     </section>

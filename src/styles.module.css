@@ -73,7 +73,20 @@ button:hover{
 }
 
 .partners img{
-    width: 100px;
+    margin-left: 20px;
+    width: 65px;
+    filter: grayscale(100);
 }
 
+.partners img:hover{
+    filter: grayscale(0);
+}
 
+.socials img{
+    height: 65px;
+    filter: grayscale(100);
+}
+
+.socials img:hover{
+    filter: grayscale(0);
+}
