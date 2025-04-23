@@ -12,7 +12,9 @@ function Landing() {
       <ul>
           <li>Login</li>
           <li>Sign Up</li>
-          <li>Sections</li>
+          <li>
+          <button>Shop now</button>
+          </li>
       </ul>
     </nav>
 
@@ -28,13 +30,47 @@ function Landing() {
         <h1>Play More, Pay Less.</h1>
         <h1>The Ultimate Game Store!</h1>
       </article>
-        <p id={styles.hero_description}>
-        At Game Wave, we bring you the best games across all platforms. Whether youre into action-packed shooters, thrilling RPGs, or heart-racing sports games, we’ve got something for every gamer. 
-        From the hottest new releases to timeless classics, our collection is curated to give you the best gaming experience.
-        Find your next favorite game, dive into epic adventures, and start playing today. No delays, no hassle – just pure gaming!
-        </p>
+      
+        <section className={styles.customer_review_section}>
+              <article className={styles.customer_review_1}>
+                <figure>
+                  <img src="assets/Customer reviews avatars/reviewer 1.jpg" alt="" id={styles.reviewer_one}/>
+                  <aside>
+                  <p>
+                    Customer one review message
+                  </p>
+                </aside>
+                </figure>
 
-        <button>Shop now</button>
+              </article>
+        
+              <article className={styles.customer_review_2}>
+                <figure>
+                  <img src="assets/Customer reviews avatars/reviewer 2.jpg" alt="" id={styles.reviewer_two}/>
+                  <aside>
+                  <p>
+                    Customer two review message
+                  </p>
+                </aside>
+                </figure>
+        
+                
+              </article>
+        
+              <article className={styles.customer_review_3}>
+                <figure>
+                  <img src="assets/Customer reviews avatars/reviewer 3.jpg" alt="" id={styles.reviewer_three}/>
+                  <aside>
+                  <p>
+                    Customer three review message
+                  </p>
+                </aside>
+                </figure>
+        
+                
+              </article>
+
+            </section>
 
         <article className={styles.stats}>
 

@@ -27,11 +27,25 @@ nav header{
 
 ul{
     display: flex;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
 }
 
 li{
     margin-right: 10px;
+}
+
+button{
+    height: 40px;
+    width: 220px;
+    background-color: #696969;
+    border: 0;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: #1B56FD;
 }
 
 .container{
@@ -42,30 +56,35 @@ li{
 
 
 .hero_section_left h1{
-    font-size: 90px;
+    font-size: 80px;
     margin: 0;
     color: #696969;
+}
+
+.customer_review_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reviewer_one,
+#reviewer_two,
+#reviewer_three{
+    height: 100px;
+}
+
+#reviewer_one{
+    height: 300px;
+}
+
+#reviewer_three{
+    height: 285px;
 }
 
 .hero_section_right{
     margin-top: 50px;
 }
 
-#hero_description{
-    font-size: 25px;
-}
-
-button{
-    height: 60px;
-    width: 220px;
-    background-color: #696969;
-    border: 0;
-    border-radius: 15px;
-}
-
-button:hover{
-    background-color: #1B56FD;
-}
 
 .partners{
     position: absolute;

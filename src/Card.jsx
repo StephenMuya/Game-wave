@@ -107,44 +107,7 @@ function Card() {
         </article>
       </section>
 
-      <section className={style.customer_rating_card}>
-
-      <article className={style.customer_review_1}>
-        <figure>
-          <img src="" alt="" />
-        </figure>
-
-        <aside>
-          <p>
-            Customer one review message
-          </p>
-        </aside>
-      </article>
-
-      <article className={style.customer_review_2}>
-        <figure>
-          <img src="" alt="" />
-        </figure>
-
-        <aside>
-          <p>
-            Customer two review message
-          </p>
-        </aside>
-      </article>
-
-      <article className={style.customer_review_3}>
-        <figure>
-          <img src="" alt="" />
-        </figure>
-
-        <aside>
-          <p>
-            Customer three review message
-          </p>
-        </aside>
-      </article>
-      </section>
+      
 
       <section className={style.FAQ}>
         <header>FREQUENTLY ASKED QUESTIONS</header>
