@@ -8,6 +8,15 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: hsla(0, 0%, 0%, 1);
+
+    background: linear-gradient(90deg, hsla(0, 0%, 0%, 1) 30%, hsla(330, 91%, 44%, 1) 40%, hsla(248, 94%, 47%, 1) 64%, hsla(273, 92%, 38%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 30%, hsla(330, 91%, 44%, 1) 40%, hsla(248, 94%, 47%, 1) 64%, hsla(273, 92%, 38%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 30%, hsla(330, 91%, 44%, 1) 40%, hsla(248, 94%, 47%, 1) 64%, hsla(273, 92%, 38%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#D50A6F", GradientType=1 );
 }
 
 nav{
