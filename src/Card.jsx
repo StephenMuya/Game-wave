@@ -58,17 +58,6 @@ function Card() {
             <p>Game description</p>
           </aside>
         </article>
-
-        <article className={style.pick_6}>
-          <figure>
-            <img src="" alt="" />
-          </figure>
-
-          <aside>
-            <header>Game Name</header>
-            <p>Game description</p>
-          </aside>
-        </article>
       </section>
 
 
