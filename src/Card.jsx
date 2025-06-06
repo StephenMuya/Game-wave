@@ -6,7 +6,7 @@ function Card() {
       <section className={style.container}>
         <article className={style.pick_1}>
           <figure>
-            <img src="" alt="" />
+            <img src="assets\Featured games\Fifa 24.jpg" alt="" id="featured_one"/>
           </figure>
 
           <aside>
@@ -17,7 +17,7 @@ function Card() {
 
         <article className={style.pick_2}>
           <figure>
-            <img src="" alt="" />
+            <img src="assets\Featured games\Call of duty blackops cold war.jpg"  id="featured_two"/>
           </figure>
 
           <aside>
@@ -28,7 +28,7 @@ function Card() {
 
         <article className={style.pick_3}>
           <figure>
-            <img src="" alt="" />
+            <img src="assets\Featured games\call of duty warzone.jpg" alt=""/>
           </figure>
 
           <aside>
@@ -39,7 +39,7 @@ function Card() {
 
         <article className={style.pick_4}>
           <figure>
-            <img src="" alt="" />
+            <img src="assets\Featured games\Cyberpunk.jpg" alt="" id={style.featured_game_four}/>
           </figure>
 
           <aside>
@@ -50,7 +50,7 @@ function Card() {
 
         <article className={style.pick_5}>
           <figure>
-            <img src="" alt="" />
+            <img src="assets\Featured games\Red redemption.jpg" alt="" id={style.featured_game_five}/>
           </figure>
 
           <aside>
