@@ -64,7 +64,7 @@ function Card() {
       <section className={style.discounts}>
       <article className={style.discount_1}>
           <figure>
-            <img src="" alt="" />
+            <img src="assets\Discounts\hot-sale.png" alt="" />
           </figure>
 
           <aside>
@@ -75,7 +75,7 @@ function Card() {
 
         <article className={style.discount_2}>
           <figure>
-            <img src="" alt="" />
+            <img src="assets\Discounts\discount.png" alt="" />
           </figure>
 
           <aside>
@@ -86,7 +86,7 @@ function Card() {
 
         <article className={style.discount_3}>
           <figure>
-            <img src="" alt="" />
+            <img src="assets\Discounts\gift.png" alt="" />
           </figure>
 
           <aside>
