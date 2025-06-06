@@ -1,6 +1,6 @@
-import style from './card.module.css'
-
-function Card() {
+import style from './card.module.css';
+import freq from './faq.jsx';
+const Card = () => {
     return(
     <>
       <section className={style.container}>
@@ -95,27 +95,11 @@ function Card() {
           </aside>
         </article>
       </section>
-
+     
+      <Faq />
       
-
       <section className={style.FAQ}>
-        <header>FREQUENTLY ASKED QUESTIONS</header>
-        <article>
-          <p>Question 1</p>
-          <p>Question 2</p>
-          <p>Question 3</p>
-          <p>Question 4</p>
-          <p>Question 5</p>
-          <p>Question 6</p>
-
-          <p>Answer 1</p>
-          <p>Answer 2</p>
-          <p>Answer 3</p>
-          <p>Answer 4</p>
-          <p>Answer 5</p>
-          <p>Answer 6</p>
-        </article>
-      </section>
+        </section>
 
       <section className={style.shipping_policies}>
         <p>Policy 1</p>
