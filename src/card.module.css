@@ -74,14 +74,13 @@ img#featured_two {
 .shipping_policies{
     border: 5px solid black;
     margin-top: 20px;
+    width: 560px;
 }
 
-.newsletter{
-    display: flex;
-    flex-direction: column;
-    border: 5px solid black;
-    margin-top: 20px;
+.shipping_policies article{
+    margin-bottom: 15px;
 }
+
 
 .footer{
     border: 5px solid black;
