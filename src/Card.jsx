@@ -1,5 +1,5 @@
 import style from './card.module.css';
-import freq from './faq.jsx';
+import FrequentlyAsked from './faq.jsx';
 const Card = () => {
     return(
     <>
@@ -96,11 +96,8 @@ const Card = () => {
         </article>
       </section>
      
-      <Faq />
+      <FrequentlyAsked />
       
-      <section className={style.FAQ}>
-        </section>
-
       <section className={style.shipping_policies}>
         <p>Policy 1</p>
         <p>Policy 2</p>

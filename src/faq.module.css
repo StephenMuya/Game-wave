@@ -1,72 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
-    font-family: "Work Sans", sans-serif;;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
-header{
+.background {
+    width: 100%;
+    margin-bottom: 2rem; 
+}
+
+.background svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.faq-card {
     display: flex;
-    align-items: center;
-    text-align: center;
-    max-height: 130px;
-    position: relative;
-}
-
-header svg{
-    margin-left: 20px;
-}
-
-header h1{
-    font-size: 5em;
-    margin-left: 30px;
-}
-
-section.faq-card{
-    display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     justify-content: flex-start;
     max-width: 750px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     background-color: hsl(0, 0%, 100%);
     border: 10px solid hsl(0, 0%, 100%);
     border-radius: 20px;
     box-shadow: 3px 3px 30px hsl(292, 16%, 49%);
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 15em;
+    position: relative;
+    top: 15em; 
+    padding: 2rem; 
 }
 
-main{
+header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-height: 130px;
+}
+
+header svg {
+    margin-left: 20px;
+}
+
+header h1 {
+    font-size: 3em; 
     margin-left: 30px;
 }
 
-.question-one p,
-.question-two p,
-.question-three p,
-.question-four p{
-    font-size: 18px;
-    color: gray;
-    font-weight: 340;
-    width: 650px;
+main {
+    margin-left: 30px;
 }
 
-.question-one h2,
-.question-two h2,
-.question-three h2,
-.question-four h2{
+.question {
+    margin-bottom: 1.5rem; 
+}
+
+.question h2 {
     display: flex;
-
+    align-items: center;
+    font-size: 1.5rem; 
+    cursor: pointer; 
 }
 
-.question h2:hover{
+.question h2:hover {
     color: hsl(292, 16%, 49%);
 }
 
-.question h2 > svg{
-    margin-top: 0;
-    margin-top: 0;
+.question p {
+    font-size: 18px;
+    color: gray;
+    font-weight: 340;
+    width: 650px; 
+}
+
+.question h2 > svg {
+    margin-left: 10px; 
 }
