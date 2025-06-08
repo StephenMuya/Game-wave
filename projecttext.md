@@ -1,9 +1,8 @@
 ```md
 
-```html
-<b>SHIPPING POLICIES</b>
 
-```
+SHIPPING POLICIES
+
 
 1. Standard Shipping Policy
 We offer standard shipping on all orders within the continental United States. Orders are typically processed within 1-3 business days and shipped via our trusted carriers. Delivery times may vary based on your location, but you can expect your order to arrive within 5-7 business days after processing.
