@@ -1,3 +1,4 @@
+import './index.css';
 import style from './card.module.css';
 import FrequentlyAsked from './faq.jsx';
 const Card = () => {
@@ -157,7 +158,7 @@ const Card = () => {
           <button>submit</button>
         </form>
       </section>
-
+               
       <footer className={style.footer}>
         <div>
         Contact info
