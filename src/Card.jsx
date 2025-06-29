@@ -1,11 +1,12 @@
 import './index.css';
-import style from './card.module.css';
-import FrequentlyAsked from './faq.jsx';
+import Demo from './faq.jsx';
+
+
 const Card = () => {
     return(
     <>
-      <section className={style.container}>
-        <article className={style.pick_1}>
+      <section className='grid grid-cols-3 grid-rows-2 content-center gap-4 '>
+        <article className=''>
           <figure>
             <img src="assets\Featured games\Fifa 24.jpg" alt="" id="featured_one"/>
           </figure>
@@ -16,9 +17,9 @@ const Card = () => {
           </aside>
         </article>
 
-        <article className={style.pick_2}>
+        <article className=''>
           <figure>
-            <img src="assets\Featured games\Call of duty blackops cold war.jpg"  id="featured_two"/>
+            <img src="assets\Featured games\Call of duty blackops cold war.jpg"  className=''/>
           </figure>
 
           <aside>
@@ -27,7 +28,7 @@ const Card = () => {
           </aside>
         </article>
 
-        <article className={style.pick_3}>
+        <article className=''>
           <figure>
             <img src="assets\Featured games\call of duty warzone.jpg" alt=""/>
           </figure>
@@ -38,9 +39,9 @@ const Card = () => {
           </aside>
         </article>
 
-        <article className={style.pick_4}>
+        <article className=''>
           <figure>
-            <img src="assets\Featured games\Cyberpunk.jpg" alt="" id={style.featured_game_four}/>
+            <img src="assets\Featured games\Cyberpunk.jpg" alt="" className=''/>
           </figure>
 
           <aside>
@@ -49,9 +50,9 @@ const Card = () => {
           </aside>
         </article>
 
-        <article className={style.pick_5}>
+        <article className=''>
           <figure>
-            <img src="assets\Featured games\Red redemption.jpg" alt="" id={style.featured_game_five}/>
+            <img src="assets\Featured games\Red redemption.jpg" alt="" className=''/>
           </figure>
 
           <aside>
@@ -62,8 +63,8 @@ const Card = () => {
       </section>
 
 
-      <section className={style.discounts}>
-      <article className={style.discount_1}>
+      <section className=''>
+      <article className=''>
           <figure>
             <img src="assets\Discounts\hot-sale.png" alt="" />
           </figure>
@@ -74,7 +75,7 @@ const Card = () => {
           </aside>
         </article>
 
-        <article className={style.discount_2}>
+        <article className=''>
           <figure>
             <img src="assets\Discounts\discount.png" alt="" />
           </figure>
@@ -85,7 +86,7 @@ const Card = () => {
           </aside>
         </article>
 
-        <article className={style.discount_3}>
+        <article className=''>
           <figure>
             <img src="assets\Discounts\gift.png" alt="" />
           </figure>
@@ -97,14 +98,16 @@ const Card = () => {
         </article>
       </section>
 
-      <section className='customer_review'>
+      <section className=''>
         <h1>Customer review section Here</h1>
       </section>
      
-      <FrequentlyAsked />
+     
+      <Demo />
       
-      <section className={style.shipping_policies}>
-        <article className='policy_one'>
+      
+      <section className=''>
+        <article className=''>
           <h1>Standard Shipping Policy</h1>
           <p>
             We offer standard shipping on all orders within the continental United States. 
@@ -114,7 +117,7 @@ const Card = () => {
           </p>
         </article>
 
-        <article className='policy_two'>
+        <article className=''>
           <h1>Expedited Shipping Policy</h1>
           <p>
             For customers who need their items sooner, we offer expedited shipping options 
@@ -132,14 +135,14 @@ const Card = () => {
           </p>
         </article>
 
-        <article className='policy_four'>
+        <article className=''>
           <h1>Free Shipping Policy</h1>
           <p>Enjoy free standard shipping on all orders over $50 within the continental United States. 
             This offer applies automatically at checkout. Please allow 5-7 business days for delivery after processing. 
             Exclusions may apply for oversized items or special promotions.</p>
         </article>
 
-        <article className='policy_five'>
+        <article className=''>
           <h1>Order Tracking Policy</h1>
           <p>Once your order has been shipped, you will receive a confirmation email with a tracking number. 
             You can use this tracking number to monitor the status of your shipment. 
@@ -147,11 +150,11 @@ const Card = () => {
         </article>
       </section>
 
-      <section className={style.newsletter}>
+      <section className=''>
         <h1>Subscribe to our weekly newspaper</h1>
         <h3>Get updates about the latest realeases, dscounts and offers</h3>
         
-        <form action="" className={style.newsletter}>
+        <form action="" className=''>
           <input type="text" placeholder='Name'/>
           <input type="text" placeholder='email'/>
 
@@ -159,7 +162,7 @@ const Card = () => {
         </form>
       </section>
                
-      <footer className={style.footer}>
+      <footer className=''>
         <div>
         Contact info
         social media links
@@ -167,13 +170,6 @@ const Card = () => {
         copyright information
         </div>
       </footer>
-
-      <div className='bg-red-300 text-white p-4 text-center'>
-        <h1>Game Wave</h1>
-        <p>Game Wave is a platform that connects gamers with the latest and greatest games, offering a wide selection of titles across various genres. 
-          Whether you're into action, adventure, strategy, or sports, Game Wave has something for everyone. 
-          Join our community of gamers and discover new releases, exclusive discounts, and exciting events.</p>
-      </div>
 
     </>
 )
