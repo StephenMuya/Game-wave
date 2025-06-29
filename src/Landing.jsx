@@ -6,15 +6,14 @@ function Landing() {
     return(
       <>
 
-    <nav className={styles.nav}>
+    <nav className="flex justify-between items-center rounded-xl text-white">
       <header>Game Wave</header>
-  
-      <ul>
-          <li>Login</li>
-          <li>Sign Up</li>
-          <li>
+      <ul className='flex justify-center items-center list-none'>
+        <li>Login</li>
+        <li>Sign Up</li>
+        <li>
           <button>Shop now</button>
-          </li>
+        </li>
       </ul>
     </nav>
 

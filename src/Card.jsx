@@ -167,6 +167,14 @@ const Card = () => {
         copyright information
         </div>
       </footer>
+
+      <div className='bg-red-300 text-white p-4 text-center'>
+        <h1>Game Wave</h1>
+        <p>Game Wave is a platform that connects gamers with the latest and greatest games, offering a wide selection of titles across various genres. 
+          Whether you're into action, adventure, strategy, or sports, Game Wave has something for everyone. 
+          Join our community of gamers and discover new releases, exclusive discounts, and exciting events.</p>
+      </div>
+
     </>
 )
 
