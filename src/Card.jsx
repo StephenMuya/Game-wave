@@ -8,7 +8,7 @@ const Card = () => {
       <section className='grid grid-cols-3 grid-rows-2 content-center gap-4 '>
         <article className=''>
           <figure>
-            <img src="assets\Featured games\Fifa 24.jpg" alt="" id="featured_one"/>
+            <img src="assets/Featured games/Fifa 24.jpg" alt="" id="featured_one"/>
           </figure>
 
           <aside>
@@ -19,7 +19,7 @@ const Card = () => {
 
         <article className=''>
           <figure>
-            <img src="assets\Featured games\Call of duty blackops cold war.jpg"  className=''/>
+            <img src="assets/Featured games/Call of duty blackops cold war.jpg"  className=''/>
           </figure>
 
           <aside>
@@ -30,7 +30,7 @@ const Card = () => {
 
         <article className=''>
           <figure>
-            <img src="assets\Featured games\call of duty warzone.jpg" alt=""/>
+            <img src="assets/Featured games/call of duty warzone.jpg" alt=""/>
           </figure>
 
           <aside>
@@ -41,7 +41,7 @@ const Card = () => {
 
         <article className=''>
           <figure>
-            <img src="assets\Featured games\Cyberpunk.jpg" alt="" className=''/>
+            <img src="assets/Featured games/Cyberpunk.jpg" alt="" className=''/>
           </figure>
 
           <aside>
@@ -52,7 +52,7 @@ const Card = () => {
 
         <article className=''>
           <figure>
-            <img src="assets\Featured games\Red redemption.jpg" alt="" className=''/>
+            <img src="assets/Featured games/Red redemption.jpg" alt="" className=''/>
           </figure>
 
           <aside>
@@ -66,7 +66,7 @@ const Card = () => {
       <section className=''>
       <article className=''>
           <figure>
-            <img src="assets\Discounts\hot-sale.png" alt="" />
+            <img src="assets/Discounts/hot-sale.png" alt="" />
           </figure>
 
           <aside>
@@ -77,7 +77,7 @@ const Card = () => {
 
         <article className=''>
           <figure>
-            <img src="assets\Discounts\discount.png" alt="" />
+            <img src="assets/Discounts/discount.png" alt="" />
           </figure>
 
           <aside>
@@ -88,7 +88,7 @@ const Card = () => {
 
         <article className=''>
           <figure>
-            <img src="assets\Discounts\gift.png" alt="" />
+            <img src="assets/Discounts/gift.png" alt="" />
           </figure>
 
           <aside>
