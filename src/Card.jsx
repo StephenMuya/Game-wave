@@ -1,5 +1,4 @@
 import './index.css';
-import Demo from './faq.jsx';
 
 
 const Card = () => {
@@ -102,10 +101,6 @@ const Card = () => {
         <h1>Customer review section Here</h1>
       </section>
      
-     
-      <Demo />
-      
-      
       <section className=''>
         <article className=''>
           <h1>Standard Shipping Policy</h1>

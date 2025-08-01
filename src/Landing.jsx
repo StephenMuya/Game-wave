@@ -6,6 +6,7 @@ function Landing() {
     return(
       <>
 
+<main className="flex justify-center items-center">
     <nav className="flex justify-between items-center rounded-xl text-white">
       <header>Game Wave</header>
       <ul className='flex justify-center items-center list-none'>
@@ -16,6 +17,7 @@ function Landing() {
         </li>
       </ul>
     </nav>
+  </main>
 
     <section className={styles.container}>
 
