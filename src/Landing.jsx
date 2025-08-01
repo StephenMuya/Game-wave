@@ -22,7 +22,7 @@ function Landing() {
     <section className={styles.container}>
 
       <figure>
-        <img src="assets/hero section image.jpg" alt="" />
+        <img src="assets\Featured games\banner.jpg" alt="" />
       </figure>
 
       <article className={styles.hero_section_right}>
@@ -35,7 +35,7 @@ function Landing() {
         <section className={styles.customer_review_section}>
               <article className={styles.customer_review_1}>
                 <figure>
-                  <img src="assets/Customer reviews avatars/reviewer 1.jpg" alt="" id={styles.reviewer_one}/>
+                  <img src="" alt="" id={styles.reviewer_one}/>
                   <aside>
                   <p>
                     Customer one review message
@@ -47,7 +47,7 @@ function Landing() {
         
               <article className={styles.customer_review_2}>
                 <figure>
-                  <img src="assets/Customer reviews avatars/reviewer 2.jpg" alt="" id={styles.reviewer_two}/>
+                  <img src="" alt="" id={styles.reviewer_two}/>
                   <aside>
                   <p>
                     Customer two review message
@@ -60,7 +60,7 @@ function Landing() {
         
               <article className={styles.customer_review_3}>
                 <figure>
-                  <img src="assets/Customer reviews avatars/reviewer 3.jpg" alt="" id={styles.reviewer_three}/>
+                  <img src="" alt="" id={styles.reviewer_three}/>
                   <aside>
                   <p>
                     Customer three review message

@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    font-family: 'Dancing Script', cursive;
-    color: white;
-    background-color: black;
-}
 
 nav header{
   font-family: "Dancing Script", cursive;
@@ -31,4 +26,5 @@ button{
 button:hover{
     background-color: #1B56FD;
 }
+
 
