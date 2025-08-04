@@ -19,19 +19,40 @@ function Landing() {
     </nav>
   </main>
 
-    <section className={styles.container}>
+    <section >
 
-      <figure>
-        <img src="assets\Featured games\banner.jpg" alt="" />
-      </figure>
+    <article className='flex h-min'>
 
-      <article className={styles.hero_section_right}>
-
-      <article className={styles.hero_section_left}>
-        <h1>Play More, Pay Less.</h1>
-        <h1>The Ultimate Game Store!</h1>
-      </article>
       
+      <img src="assets\Hero section\banner 2.jpg" alt="" className={styles.banner}/>
+
+      
+      <aside>
+        <h1 className=''>Play More, Pay Less.</h1>
+        <h1>The Ultimate Game Store!</h1>
+      </aside>
+
+      <article className={styles.stats}>
+
+          <aside>
+            <div>
+              <h1>$1M+</h1>
+              <p>Total sales</p>
+            </div>
+
+            <div>
+              <h1>40K+</h1>
+              <p>Daily users</p>
+            </div>
+
+            <div>
+              <h1>85.4%</h1>
+              <p>Average daily users</p>
+            </div>
+          </aside>
+    </article>
+
+      {/*
         <section className={styles.customer_review_section}>
               <article className={styles.customer_review_1}>
                 <figure>
@@ -44,6 +65,7 @@ function Landing() {
                 </figure>
 
               </article>
+        
         
               <article className={styles.customer_review_2}>
                 <figure>
@@ -70,30 +92,11 @@ function Landing() {
         
                 
               </article>
+              
 
             </section>
-
-        <article className={styles.stats}>
-
-          <aside>
-            <div>
-              <h1>$1M+</h1>
-              <p>Total sales</p>
-            </div>
-
-            <div>
-              <h1>40K+</h1>
-              <p>Daily users</p>
-            </div>
-
-            <div>
-              <h1>85.4%</h1>
-              <p>Average daily users</p>
-            </div>
-          </aside>
-
+        */}
         
-        </article>
 
         
         <article className={styles.socials}>
@@ -116,8 +119,7 @@ function Landing() {
       </article>
     </section>
 
-  
-      <Card />
+  {/*<Card />*/} 
     </>
     );
   }
