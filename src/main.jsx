@@ -1,11 +1,11 @@
+import React from "react";
 import { createRoot } from "react-dom/client";
-import Landing from "./Landing"
-import './index.css';
-
+import Landing from "./Landing";
+import "./index.css";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
-    <>
-      <Landing />
-    </>
+  <React.StrictMode>
+    <Landing />
+  </React.StrictMode>
 );

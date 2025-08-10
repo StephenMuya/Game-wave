@@ -4,13 +4,13 @@ function Landing() {
     return(
       <>
 
-    <nav className='flex justify-center align-center'>
+    <nav className='flex justify-center items-center bg-green-400'>
 
       <header>
-        <h1>Game Wave</h1>
+        <h1 className="text-lg">Game Wave</h1>
       </header>
 
-      <ul className="list-none">
+      <ul className="list-none flex space-x-[5px]">
         <li>Login</li>
         <li>Sign Up</li>
         <li>
