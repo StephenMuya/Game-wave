@@ -1,10 +1,16 @@
+
+
 function Landing() {
     return(
       <>
 
-    <nav className="flex justify-between items-center rounded-xl text-white">
-      <header>Game Wave</header>
-      <ul className='flex justify-center items-center list-none'>
+    <nav className='flex justify-center align-center'>
+
+      <header>
+        <h1>Game Wave</h1>
+      </header>
+
+      <ul className="list-none">
         <li>Login</li>
         <li>Sign Up</li>
         <li>
@@ -13,14 +19,14 @@ function Landing() {
       </ul>
     </nav>
 
-    <article className='flex'>
+    <article className="flex">
       
       <figure>
-      <img src="assets/Hero section/banner 2.jpg" alt=""/>
+      <img className='h-3/4' src="assets/Hero section/banner 2.jpg" alt=""/>
       </figure>
 
       <aside>
-        <h1 className='text-lg'>Play More, Pay Less.</h1>
+        <h1>Play More, Pay Less.</h1>
         <h1>The Ultimate Game Store!</h1>
       </aside>
     </article>
