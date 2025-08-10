@@ -1,7 +1,7 @@
 import './index.css';
 
 
-const Card = () => {
+{/*const Card = () => {
     return(
     <>
       <section className='grid grid-cols-3 grid-rows-2 content-center gap-4 '>
@@ -173,6 +173,7 @@ const Card = () => {
 
 export default Card;
 
+*/}
 
 /*New Release
 Most Popular
